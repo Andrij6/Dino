@@ -14,7 +14,7 @@ pip install pygame
 ```
 - Run project
 ```
-dino game.py
+python3 dino.py
 ```
 
 ## Suport
