@@ -369,7 +369,7 @@ class Player():
                         self.y_kor = 220
                         self.direction = 'up'
                 if keys_p[K_F1]:
-                    score += 10
+                    score += 100000000
                 if keys_p[K_F2]:
                     self.health = 3
 
@@ -1120,7 +1120,7 @@ while not game_over:
                     i.respawn()
                 x_first = 1000
             first_firts += 1
-                    
+            meteor_list.clear()        
 
     
         if game == '':
